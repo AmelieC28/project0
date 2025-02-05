@@ -22,7 +22,7 @@ public class Hangman {
                     wordGuessed = true;
                 } else {
                     attempts--;
-                    System.out.println("Incorrect guess! You have " + attempts + " attempts left.");
+                    System.out.println("Wrong guess! You have " + attempts + " attempts left.");
                 }
             } else if (input.length() == 1) {
                 char guess = input.charAt(0);
